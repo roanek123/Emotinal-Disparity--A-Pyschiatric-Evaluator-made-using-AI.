@@ -14,7 +14,7 @@ The frontend is built using Streamlit for ease of use and interaction.
 (For any issues for running this system in your system, please refer to the requirements.txt)
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/roanek123/Emotinal-Disparity--A-Pyschiatric-Evaluator-made-using-AI./blob/main/Streamlit%20page.png)
 
 
 ## 🔍 Features
