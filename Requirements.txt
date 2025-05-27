@@ -1,0 +1,102 @@
+Python 3.10
+
+pip install langchain langchain-ollama transformers ultralytics torch opencv-python numpy pillow librosa
+
+pip install moviepy==1.0.3
+
+
+llamaAPI FOLDER CAME INTO BEING DUE TO INSTALLATION OF LACHAAIN OLLAMA
+
+
+Install and configure FFmpeg ---------------------------------
+
+🧰 Step 1: Download FFmpeg
+Go to the official site: https://ffmpeg.org/download.html
+
+Under Windows, download a build from https://www.gyan.dev/ffmpeg/builds/
+
+Choose "release full" ZIP
+
+Unzip it — you'll get a folder like ffmpeg-xxxx-win64-full
+
+🛠 Step 2: Add FFmpeg to your system PATH
+Inside the unzipped folder, go to the bin directory (e.g., ffmpeg-xxx/bin)
+
+Copy the path (e.g., C:\Users\RJ\Downloads\ffmpeg-xxx\bin)
+
+Open Windows Start Menu, search for Environment Variables
+
+Under System variables, select Path → click Edit
+
+Click New → paste the path you copied
+
+Click OK/Apply to save
+
+🔁 Step 3: Restart VSCode or Command Prompt
+Changes to the PATH variable require a restart of your terminal or IDE.
+
+
+
+**for ollama tcp error:**-----------------------------------
+Change your DNS to a more reliable one, like Google or Cloudflare:
+🔧 On Windows:
+Go to Control Panel > Network and Sharing Center > Change adapter settings.
+
+Right-click your active network connection > Properties.
+
+Select Internet Protocol Version 4 (TCP/IPv4) > Properties.
+
+Check "Use the following DNS server addresses" and set:
+
+Preferred: 8.8.8.8
+
+Alternate: 1.1.1.1
+
+Repeat the same for IPv6 if needed:
+
+Preferred: 2001:4860:4860::8888
+
+Alternate: 2606:4700:4700::1111
+
+Click OK and restart the network connection.
+
+🔧 On macOS:
+Go to System Settings > Network > (Your network) > Details > DNS.
+
+Add: 8.8.8.8 and 1.1.1.1.
+
+🔧 On Linux:
+Edit /etc/resolv.conf:
+
+sudo nano /etc/resolv.conf
+And add:
+
+nameserver 8.8.8.8
+nameserver 1.1.1.1
+
+After that:
+Run nslookup registry.ollama.ai again — it should respond faster.
+
+
+
+
+----------
+
+Rename llama3.1:8b to something like llama3.1:
+
+ollama cp llama3.1:8b llama3.1
+
+
+
+----------------------------------------------
+
+unzip the Roberta and whisper folder and extract them to the Roberta and whisper folders that are already there.
+
+
+
+--------
+MAKE SURE TO KEEP MEMORY FREE FOR THE FUNCTIONING OF THIS MODEL: OR TRY TO USE A SMALLER MODEL.
+
+---------------------------------------
+make sure ollama serve is running.
+
