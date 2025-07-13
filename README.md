@@ -146,8 +146,8 @@ pip install moviepy==1.0.3
 ###  Step 5: Prepare Model Folders
 
 - Download and extract:
-  - **Whisper model folder** → into the `whisper/` directory.
-  - **Roberta model folder** → into the `roberta/` directory.
+  - **Whisper model** → into the `whisper-small/` directory.
+  - **Roberta model** → into the `roberta-base-go_emotions/` directory.
 
 Ensure both folders exist and contain the correct HuggingFace files.
 
