@@ -203,6 +203,8 @@ Do the following in the http localhost.
 
 You can look at the full working of this system through this link.
 
+(https://youtu.be/8NSoRpD2_ZM)
+
 
 ## 🗺️ WorkFlow
 
@@ -227,9 +229,6 @@ The following describes the workflow of this system:
 - LLM Summary → All extracted signals are combined and passed to DeepSeek via LangChain to generate a reflective analysis.
 
 
-## 🚀 Demo Video:
-
-(https://youtu.be/8NSoRpD2_ZM)
 
 ## 🗃️ Usage Example:
 
